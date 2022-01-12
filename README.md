@@ -1,1 +1,2 @@
 # VoiceAssistant
+It's a voice assistant made from python and few of its modules. It can speak and take voice orders but may not able to excute them properly because it's in a very initial stage right now. It can open google, youtube, in computer apps(The one which path is written can be modified), play music(I have not added this as i dont have any music library in my system) and can serch wikipedia. It has high scope for its further development.
