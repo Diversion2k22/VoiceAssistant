@@ -4,13 +4,21 @@ It's a voice assistant made from python and few of its modules. It can speak and
 To work with program properly Change the pc location of the installed apps according to your own benefits.
 
 Before Running the program INSTALL this in your Terminal ans set the path : 
-pip install wikipedia
-pip install webbrowser
-pip install speechRecognition
-pip install pyttsx3
-pip install datetime
+
+pip install wikipedia,
+
+pip install webbrowser,
+
+pip install speechRecognition,
+
+pip install pyttsx3,
+
+pip install datetime.
 
 You can Change the voice of the assistant according to your choice by changing the command in line 15:
-voice[0] for Male
-voice[1] for femele
+
+voice[0] for Male,
+
+voice[1] for femele.
+
 It is currently in female
