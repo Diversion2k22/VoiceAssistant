@@ -58,7 +58,6 @@ def Command():
 
 
 if __name__ == "__main__":
-    
     Greet()
     while True:
         query = Command().lower()
