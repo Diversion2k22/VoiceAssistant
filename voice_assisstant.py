@@ -62,12 +62,11 @@ if __name__ == "__main__":
     Greet()
     while True:
         query = Command().lower()
-        if 'wikipedia' in query:
-            speak("Searching Wikipedia")
-            query = query.replace("wikipedia","")
-            result = wikipedia.summary(query, sentences = 4)
-            print(f"The results we got from wikipedia are {result}")
-            speak("The results we got from wikipedia are")
+        if 'search' in query:
+            
+            query = query.replace("se","")
+            result = wikipedia.summary(query, sentences = 2)
+            
             speak(result)
             
         elif 'the time' in query:
