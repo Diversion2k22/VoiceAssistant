@@ -64,7 +64,7 @@ if __name__ == "__main__":
         query = Command().lower()
         if 'search' in query:
             
-            query = query.replace("se","")
+            query = query.replace("search","")
             result = wikipedia.summary(query, sentences = 2)
             
             speak(result)
