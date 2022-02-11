@@ -58,7 +58,7 @@ def Command():
 
 
 if __name__ == "__main__":
-    # speak("Sabuj is a awesome boy")
+    
     Greet()
     while True:
         query = Command().lower()
